@@ -76,7 +76,7 @@ def anonymize_madlibs():
                     buffer_line.append(token)
             buffer.append(''.join(buffer_line))
         to_write = open(MADLIBS_DIR + filename, 'w')
-        to_write.write(''.join(buffer))
+        to_write.write(''.join(buffer).replace('    ', '\t'))
 
 
 clean()
