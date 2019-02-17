@@ -29,4 +29,4 @@ class Factory:
                     for x in range(0, 20):
                         temp_line = temp_line.replace('$' + str(x), random_words())
                     candidates.append(temp_line)
-                yield candidates
+                yield list(set(candidates))
