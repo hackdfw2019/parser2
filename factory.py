@@ -1,5 +1,5 @@
 import random, os
-from preprocess import SAMPLES_DIR, MADLIBS_DIR
+from .preprocess import SAMPLES_DIR, MADLIBS_DIR
 
 med_words = open(os.path.join(os.path.dirname(__file__), "assets/dict_med.txt"), 'r').readlines()
 sho_words = open(os.path.join(os.path.dirname(__file__), "assets/dict_sho.txt"), 'r').readlines()
