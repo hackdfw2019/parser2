@@ -17,7 +17,7 @@ public class $0 {
 		$0(int $1, int $2, int $3) {	$4 = $1; $5 = $2; $6 = $3; }
 		public int $0($1 $2) { return $3 - $2.$3; }
 	}
-	static class $0 {                                              
+	static class $0 {											  
 		int[] $0, $1;
 		$0(int $1) 
 		{

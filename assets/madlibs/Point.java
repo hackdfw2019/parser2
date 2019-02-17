@@ -1,6 +1,6 @@
 public class $0 implements $1<$0>{
 	static final double $0 = $1-$2;
-	double $0, $1;                  
+	double $0, $1;				  
 	$0(double $1, double $2) { $3 = $1; $4 = $2; }  
 	public int $0($1 $2)
 	{
@@ -73,7 +73,7 @@ public class $0 implements $1<$0>{
 		$0 $1 = new $0($2, $3), $4 = new $0($2, $5);
 		double $0 = $1.$2($3) / $3.$4();
 		if ($0 < $1.$1) return $2.$3($4);
-		if ($0 > $1.$2) return $3.$4($5);        
+		if ($0 > $1.$2) return $3.$4($5);		
 		return $0($1, $2, $3); 
 	}
 }

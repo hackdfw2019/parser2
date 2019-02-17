@@ -1,4 +1,4 @@
-public class $0 {                                              
+public class $0 {											  
 	int[] $0, $1, $2;
 	int $0;
 	public $0(int $1) 
